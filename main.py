@@ -215,3 +215,19 @@ def lecturer_rating(lecturer_list, course_name):
             count_all += 1
     average_for_all = sum_all / count_all
     return average_for_all
+
+# Выводим результат подсчета средней оценки по всем студентам для данного курса
+print(f"Средняя оценка для всех студентов по курсу {'Python'}: {student_rating(student_list, 'Python')}")
+print()
+print(f"Средняя оценка для всех студентов по курсу {'React'}: {student_rating(student_list, 'React')}")
+print()
+print()
+print()
+# Выводим результат подсчета средней оценки по всем лекорам для данного курса
+print(f"Средняя оценка для всех лекторов по курсу {'Python'}: {lecturer_rating(lecturer_list, 'Python')}")
+print()
+print(f"Средняя оценка для всех лекторов по курсу {'React'}: {lecturer_rating(lecturer_list, 'React')}")
+print()
+
+
+
